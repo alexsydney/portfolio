@@ -67,9 +67,12 @@ padding: 0;
 
 }
 .transbox {
+  margin-left: 5%;
+  margin-top: 3%;
   background-color: transparent;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
   font-weight: bold;
   color: white;
 }
+.selfi{margin: 2%}

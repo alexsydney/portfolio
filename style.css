@@ -1,4 +1,5 @@
 body{margin: 0}
+
 .header{background-color: #21466D;
   height: 100px;
 }
@@ -20,7 +21,7 @@ padding: 0;
     padding: 0;
     /* Pass a comma separated list of backgrounds: */
     background:url('https://d30y9cdsu7xlg0.cloudfront.net/png/200271-200.png')no-repeat center,
-     url('https://webdesignerdepot.s3.amazonaws.com/default-images/33.jpg') no-repeat bottom center;
+     url('33.jpg') no-repeat bottom center;
 
     width:100%;
     height:670px;
@@ -37,22 +38,35 @@ padding: 0;
 .github{direction: rtl;}
 .mobile{text-align: center; color: white}
 
-.picabout {
-  background-image:url('33.jpg');
+
+
+@media (max-width: 1150px) {.picabout {background: url('wood.jpg');
   opacity: 1;
   filter: alpha(opacity=60);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+}
+}
 
+@media (min-width: 1151px) {.picabout {background-image:url('33.jpg');
+  opacity: 1;
+  filter: alpha(opacity=60);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
 }
 .transbox {
-  text-align: center;
-  font-weight:normal;
-  color: white;
+text-align: center;
+font-weight:normal;
+color: white;
 }
-.selfi{margin:10%;
+
+.selfi{margin:20%;
 width: 50%;
 height: 50%
 }

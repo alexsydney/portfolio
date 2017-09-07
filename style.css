@@ -60,15 +60,21 @@ padding: 0;
 
 }
 }
-.transbox {
+.transbox-one{
 text-align: center;
 font-weight:normal;
 color: white;
 }
 
+.transbox-two{
+text-align:left;
+font-weight:normal;
+color: white;
+
+}
+
 .selfi{margin:20%;
-width: 10%;
-height: 10%
+
 }
 
 /* Start Parralax*/

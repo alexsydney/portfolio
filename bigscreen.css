@@ -31,9 +31,6 @@ padding: 0;
 
     /* Animate the positions of both of the backgrounds */
 
-    /*-webkit-transition:background-position 2s;
-    -moz-transition:background-position 2s;
-    -o-transition:background-position 2s;*/
     transition:background-position 2s;
 }
 
@@ -45,7 +42,7 @@ padding: 0;
 .github{direction: rtl;}
 .mobile{text-align: center; color: white}
 
-@media (min-width: 1151px) {.about{background-image: url('33.jpg');
+@media (min-width: 451px) {.about{background-image: url('33.jpg');
   opacity: 1;
   filter: alpha(opacity=60);
   background-attachment:fixed;
@@ -56,16 +53,20 @@ padding: 0;
 }
 
 .transparentbox-one{
+font-family: 'Titillium Web', sans-serif;
 text-align: center;
 font-weight:normal;
 color: white;
+font-size: 18px;
 }
 
 .transparentbox-two{
-  text-align:left;
-  font-weight:normal;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #21466D;
+  text-align:center;
+  font-weight:lighter;
   color: white;
-
+  font-size: 20px;
 }
 
 .selfi{margin:20%;
@@ -73,7 +74,7 @@ color: white;
 }
 
 /* Start Parralax*/
-@media (min-width: 1151px) {
+@media (min-width: 451px) {
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   background-attachment: fixed;
@@ -104,7 +105,7 @@ color: white;
 }
 
 .bgimg-4 {
-  background-image: url("https://res.cloudinary.com/ait-website/image/upload/v1486509249/AIT_LOGO_newblue_y9eugb.png");
+  background-image: url("https://www.cnpr.pt/wp-content/uploads/2016/02/certificado.jpg");
   min-height:400px;
   min-width: 100%;
 }

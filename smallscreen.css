@@ -24,7 +24,7 @@ html, body {
     padding: 0;
     /* Pass a comma separated list of backgrounds: */
     background:url('https://d30y9cdsu7xlg0.cloudfront.net/png/200271-200.png')no-repeat center,
-    url('33.jpg') no-repeat bottom center;
+    url('pics/33.jpg') no-repeat bottom center;
 
     width:100%;
     height:670px;

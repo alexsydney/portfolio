@@ -1,7 +1,7 @@
 /*to fix scrolling to left and writ:*/
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .header{background-color: #21466D;
   height: 100px;
@@ -9,22 +9,22 @@ html, body {
 .navbar-light .navbar-brand {color: white;}
 .navbar-light .navbar-nav .nav-link{color: white;}
 .bottom {background-color: black;
-height: 150px}
+  height: 150px}
 
-.container{max-width: none;
-padding: 0;
-}
+  .container{max-width: none;
+    padding: 0;
+  }
 
-.collapse{direction: rtl;
-  font-weight: bold;
+  .collapse{direction: rtl;
+    font-weight: bold;
 
-}
-.space{
+  }
+  .space{
     margin:0;
     padding: 0;
     /* Pass a comma separated list of backgrounds: */
     background:url('https://d30y9cdsu7xlg0.cloudfront.net/png/200271-200.png')no-repeat center,
-     url('33.jpg') no-repeat bottom center;
+    url('33.jpg') no-repeat bottom center;
 
     width:100%;
     height:670px;
@@ -35,17 +35,17 @@ padding: 0;
     -moz-transition:background-position 2s;
     -o-transition:background-position 2s;*/
     transition:background-position 2s;
-}
+  }
 
-.space:hover{
+  .space:hover{
     /* The same goes for properties like background-position and repeat */
     background-position:60% 30px, top right;
   }
 
-.github{direction: rtl;}
-.mobile{text-align: center; color: white}
+  .github{direction: rtl;}
+  .mobile{text-align: center; color: white}
 
-@media (max-width: 1150px) {.about{background-image: url('wood.jpg');
+  @media (max-width: 1150px) {.about{background-image: url('wood.jpg');
   opacity: 1;
   filter: alpha(opacity=60);
   background-attachment:fixed;
@@ -56,15 +56,15 @@ padding: 0;
 }
 
 .transparentbox-one{
-text-align: center;
-font-weight:normal;
-color: white;
+  text-align: center;
+  font-weight:normal;
+  color: white;
 }
 
 .transparentbox-two{
-text-align:left;
-font-weight:normal;
-color: white;
+  text-align:left;
+  font-weight:normal;
+  color: white;
 }
 
 .selfi{margin:20%;
@@ -76,39 +76,36 @@ color: white;
 
 @media (max-width: 1150px){
 
-.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     position: relative;
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
-    padding:0;
-}
+    background-size:cover;
+
+  }
 }
 @media (max-width: 1150px){
-.bgimg-1 {
-  background-image:url();
-  width: 0;
-  height: 0;
-}
+  .bgimg-1 {
+    background-image: url("33.jpg");
+  }
+  .bgimg-2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b3/Strip_coal_mining.jpg");
+  }
 
-.bgimg-2 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b3/Strip_coal_mining.jpg");
-}
+  .bgimg-3 {
+    background-image: url("https://godotengine.org/storage/app/uploads/public/57a/b73/701/57ab73701f653339027447.jpg");
 
-.bgimg-3 {
-  background-image: url("https://godotengine.org/storage/app/uploads/public/57a/b73/701/57ab73701f653339027447.jpg");
+  }
 
-}
+  .bgimg-4 {
+    background-image: url("https://res.cloudinary.com/ait-website/image/upload/v1486509249/AIT_LOGO_newblue_y9eugb.png");
 
-.bgimg-4 {
-  background-image: url("https://res.cloudinary.com/ait-website/image/upload/v1486509249/AIT_LOGO_newblue_y9eugb.png");
+  }
 
-}
-
-.bgimg-5 {
-  background-image: url("https://www.edx.org/sites/default/files/card/images/ruby-rails-programming-378x225.jpg");
-  padding: 0;
-}
+  .bgimg-5 {
+    background-image: url("https://www.edx.org/sites/default/files/card/images/ruby-rails-programming-378x225.jpg");
+    padding: 0;
+  }
 }
 /* Finish Parralax*/

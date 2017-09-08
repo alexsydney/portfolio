@@ -1,5 +1,8 @@
-body{margin: 0}
-
+/*to fix scrolling to left and writ:*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .header{background-color: #21466D;
   height: 100px;
 }
@@ -59,9 +62,9 @@ color: white;
 }
 
 .transparentbox-two{
-text-align:left;
-font-weight:normal;
-color: white;
+  text-align:left;
+  font-weight:normal;
+  color: white;
 
 }
 
@@ -70,14 +73,17 @@ color: white;
 }
 
 /* Start Parralax*/
+@media (min-width: 1151px) {
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-
 }
+}
+
+
 .bgimg-1 {
   background-image: url("33.jpg");
   min-height: 700px;
@@ -108,3 +114,4 @@ color: white;
   min-height:400px;
   min-width: 100%;
 /* Finish Parralax*/
+}

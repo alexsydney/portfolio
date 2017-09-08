@@ -1,5 +1,8 @@
-body{margin: 0}
-
+/*to fix scrolling to left and writ:*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .header{background-color: #21466D;
   height: 100px;
 }
@@ -62,7 +65,6 @@ color: white;
 text-align:left;
 font-weight:normal;
 color: white;
-
 }
 
 .selfi{margin:20%;
@@ -74,17 +76,20 @@ color: white;
 
 @media (max-width: 1150px){
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+.bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     position: relative;
     background-attachment:scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
+    padding:0;
 }
 }
 @media (max-width: 1150px){
 .bgimg-1 {
-  background-image: url("");
+  background-image:url();
+  width: 0;
+  height: 0;
 }
 
 .bgimg-2 {
@@ -93,20 +98,17 @@ color: white;
 
 .bgimg-3 {
   background-image: url("https://godotengine.org/storage/app/uploads/public/57a/b73/701/57ab73701f653339027447.jpg");
-  min-height:400px;
-  min-width: 100%;
+
 }
 
 .bgimg-4 {
   background-image: url("https://res.cloudinary.com/ait-website/image/upload/v1486509249/AIT_LOGO_newblue_y9eugb.png");
-  min-height:400px;
-  min-width: 100%;
+
 }
 
 .bgimg-5 {
   background-image: url("https://www.edx.org/sites/default/files/card/images/ruby-rails-programming-378x225.jpg");
-  min-height:400px;
-  min-width: 100%;
+  padding: 0;
 }
 }
 /* Finish Parralax*/

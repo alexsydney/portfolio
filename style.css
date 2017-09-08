@@ -28,6 +28,9 @@ padding: 0;
 
     /* Animate the positions of both of the backgrounds */
     transition:background-position 2s;
+    -webkit-transition:background-position 2s;
+    -moz-transition:background-position 2s;
+    -o-transition:background-position 2s;  
 }
 
 .space:hover{

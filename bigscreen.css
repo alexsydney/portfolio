@@ -23,7 +23,7 @@ padding: 0;
     margin:0;
     padding: 0;
     /* Pass a comma separated list of backgrounds: */
-    background:url('https://d30y9cdsu7xlg0.cloudfront.net/png/200271-200.png')no-repeat center,
+    background:url('pics/codesign.png')no-repeat center,
      url('pics/33.jpg') no-repeat bottom center;
 
     width:100%;
@@ -53,6 +53,7 @@ padding: 0;
 }
 
 .transparentbox-one{
+margin-left: 5px;
 font-family: 'Titillium Web', sans-serif;
 text-align: center;
 font-weight:normal;
@@ -87,7 +88,8 @@ font-size: 18px;
 
 .bgimg-1 {
   background-image: url("pics/33.jpg");
-  min-height: 700px;
+
+  min-height:400px;
   min-width: : 100%;
 }
 

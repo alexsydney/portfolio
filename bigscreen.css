@@ -30,7 +30,7 @@ padding: 0;
     height:670px;
 
     /* Animate the positions of both of the backgrounds */
-    -webkit-transition: 5s;
+    -webkit-transition:1s;
     transition:background-position 2s;
 }
 

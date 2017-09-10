@@ -94,14 +94,14 @@ font-size: 18px;
 }
 
 .bgimg-2 {
-  background-image: url("pics/mine.jpg");
+  background-image: url("pics/programs.jpg");
   min-height: 400px;
   min-width:  100%;
 
 }
 
 .bgimg-3 {
-  background-image: url("pics/programs.jpg");
+  background-image: url("pics/mine.jpg");
   min-height:400px;
   min-width: 100%;
 }

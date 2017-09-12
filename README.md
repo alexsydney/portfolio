@@ -19,5 +19,6 @@
 <p>                                    Fig.1. Wireframe for big and small screen sizes  </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aamining/portfolio/master/wirefram.bmp"/>  
+  <img src="https://raw.githubusercontent.com/aamining/portfolio/master/logo.gif"/>  
 </p>
+<p>                                        Fig.2. Logo    </p>

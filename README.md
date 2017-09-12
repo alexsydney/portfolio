@@ -16,4 +16,4 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/aamining/portfolio/master/wirefram.bmp"/>  
 </p>
-<p  align="centre">  Fig.1. Wireframe for big and small screen screen sizes  </p>
+<p  text align:"centre">  Fig.1. Wireframe for big and small screen sizes  </p>

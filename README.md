@@ -12,12 +12,12 @@
 # Colors of application chose by/from https://www.canva.com/color-palette/ website based on background.
 # Font of application chose by/from https://fonts.google.com/ website based on background, simplicity and 100% readability.
 # All icons and pictures except myself, are from free sources.
-# Please find used wireframe, both for big and small screen sizes as figure 1: 
+# Please find used wireframe, both for big and small screen sizes as figure 1 and logo in figure 2: 
 <p align="center">
   <img src="https://raw.githubusercontent.com/aamining/portfolio/master/wirefram.bmp"/>  
 </p>
 <p>                                    Fig.1. Wireframe for big and small screen sizes  </p>
-# Please find logo as figure 2:
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/aamining/portfolio/master/wirefram.bmp"/>  
 </p>

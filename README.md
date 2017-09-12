@@ -12,3 +12,4 @@
 # Colors of application chose by/from https://www.canva.com/color-palette/ website based on background.
 # Font of application chose by/from https://fonts.google.com/ website based on background, simplicity and 100% readability.
 # All icons and pictures except myself, are from free sources.
+https://raw.githubusercontent.com/aamining/portfolio/master/wirefram.bmp

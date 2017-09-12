@@ -13,4 +13,7 @@
 # Font of application chose by/from https://fonts.google.com/ website based on background, simplicity and 100% readability.
 # All icons and pictures except myself, are from free sources.
 # Please find used wireframe, both for big and small screen sizes in the following linke: 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aamining/portfolio/master/wirefram.bmp"/>  
+</p>
 # https://raw.githubusercontent.com/aamining/portfolio/master/wirefram.bmp

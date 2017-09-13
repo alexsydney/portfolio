@@ -1,10 +1,13 @@
 # My portfolio
 # Design Documentation
-An individual portfolio app, https://aliasgariprofile.herokuapp.com/, developed by CSS for web design and frond-end development employers. 
-#
-It is presenting my name and contact details, Links to my Github and LinkedIn account, Information about me to demonstrate my personality, study and work history.
-Also, it is presenting my knowledge and techniques regarding HTML and CSS.
-Two majors CSS visual designing techniques used for this app are: Transition and Parallax besides bootstrap grids and containers.
+# An individual portfolio app, https://aliasgariprofile.herokuapp.com/, developed by CSS for web design and frond-end development employers. 
+
+#It is presenting my name and contact details, Links to my Github and LinkedIn account, Information about me to demonstrate my personality, study and work history.
+
+# Also, it is presenting my knowledge and techniques regarding HTML and CSS.
+
+#Two majors CSS visual designing techniques used for this app are: Transition and Parallax besides bootstrap grids and containers.
+
 This is a responsive application both in medium to large and small screen size devises, by applying the method of two different CSS files on one html file.
 This method makes able this app to act with two different looks and views in large and small devises. So, unsolved CSS problem, e.g. Parallax, in mobile phones has been solved by replacing it with a scrolling simple technique and of course in one URL.
 
@@ -22,6 +25,6 @@ Please find used wireframe, both for big and small screen sizes as figure 1 and 
 <p>                                    Fig.1. Wireframe for big and small screen sizes  </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aamining/portfolio/master/logo.gif"/>  width=50% length=50%
+  <img src="https://raw.githubusercontent.com/aamining/portfolio/master/logo.gif"/>  
 </p>
 <p>                                        Fig.2. Logo    </p>

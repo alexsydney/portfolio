@@ -1,6 +1,7 @@
 # My portfolio
 # Design Documentation
 An individual portfolio app, https://aliasgariprofile.herokuapp.com/, developed by CSS for web design and frond-end development employers. 
+#
 It is presenting my name and contact details, Links to my Github and LinkedIn account, Information about me to demonstrate my personality, study and work history.
 Also, it is presenting my knowledge and techniques regarding HTML and CSS.
 Two majors CSS visual designing techniques used for this app are: Transition and Parallax besides bootstrap grids and containers.

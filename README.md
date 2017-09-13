@@ -22,6 +22,6 @@ Please find used wireframe, both for big and small screen sizes as figure 1 and 
 <p>                                    Fig.1. Wireframe for big and small screen sizes  </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aamining/portfolio/master/logo.gif"/>  
+  <img src="https://raw.githubusercontent.com/aamining/portfolio/master/logo.gif"/>  width=50% length=50%
 </p>
 <p>                                        Fig.2. Logo    </p>
